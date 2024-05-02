@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --text-color-one: #473C38; 
+    --text-color-two: #544541 ;
+    --text-color-three: #735E59;
+    --bg-color: #ECEADA;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--scroll-padding);
+}
+
+h1 {
+    font-family: "Noto Serif", serif;
+    color: var(--text-color-one);
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+    color: var(--text-color-three);
+}
+
+h3, 
+p {
+    font-family: "Montserrat", sans-serif;
+    color: var(--text-color-two);
+}
+
+.home-header button:hover {
+    background: var(--text-color-one);
+    border: var(--text-color-one);
+    color: white;
+}
+
+.home-about,
+.home-furniture,
+.home-reviews,
+.home-contact {
+    background: var(--bg-color);
+}
+
+.bi-facebook,
+.bi-twitter,
+.bi-instagram
+ {
+    color: var(--text-color-two);
+}
+
+/* styles.css */
+.dark .bg-white {
+    background-color: #1a202c; /* Dark mode background color */
+  }
+  
+  .dark .text-black {
+    color: #f7fafc; /* Dark mode text color */
+  }
+  
